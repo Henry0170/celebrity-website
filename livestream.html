@@ -7,16 +7,24 @@
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <script src="bootstrap/bootstrap.bundle.min.js"></script>
+    <style>
+        .liveBtn {
+            background-color: rgba(128, 128, 128, 0.368);
+        }
+    </style>
 </head>
 <body>
     <div class="navbar-center">
         <div class="text-center">
             <div class="btn-group top-buttons">
-                <button class="btn">Home</button>
-                <button class="btn">About</button>
-                <button class="btn">Livestream</button>
+                <a href="index.html" class="btn homeBtn">Home</a>
+                <a href="about.html" class="btn aboutBtn">About</a>
+                <a href="livestream.html" class="btn liveBtn">Livestream</a>
             </div>
         </div>    
+    </div>
+    <div class="text-center container-fluid video embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" width="800" height="450" src="https://www.youtube.com/embed/YyTFOnjs6BQ" frameborder="0"></iframe>
     </div>
 </body>
 </html>
