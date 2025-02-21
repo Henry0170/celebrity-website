@@ -7,9 +7,6 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
-.topBar {
-    
-}
 .btn {
     color:white;
     background-color: gray;
@@ -18,7 +15,7 @@ body {
     background-color: gray;
 }
 .top-buttons {
-    margin-top: 20px;
+    top: 20px;
 }
 .video {
     position:absolute;
@@ -28,7 +25,6 @@ body {
 }
 .homeText {
     color:white;
-    
     font-size: 25px;
 }
 .homeHeaders {
