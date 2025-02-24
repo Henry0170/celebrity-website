@@ -2,7 +2,7 @@
     margin:0px;
 }
 body {
-    background-image:url(assets/NEUMORPHIC_CIRCLES_BACKGROUND.jpg);
+    background-image:url(assets/background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -26,7 +26,4 @@ body {
 .homeText {
     color:white;
     font-size: 25px;
-}
-.homeHeaders {
-    font-style:italic;
 }
